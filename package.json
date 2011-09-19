@@ -2,13 +2,18 @@
   "author": "Andrey Tarantsov <andreyvit@gmail.com>",
   "name": "macchiato",
   "description": "Testing microframework that runs tests in-browser (QUnit) and under Node.js (expresso + jsdom)",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "homepage": "https://github.com/andreyvit/macchiato",
   "repository": {
     "type": "git",
     "url": "git://github.com/andreyvit/macchiato.git"
   },
   "main": "lib/index.js",
+  "files": [
+    "browser/empty.html",
+    "browser/macchiato.js",
+    "lib/index.js"
+  ],
   "engines": {
     "node": ">=v0.5.0"
   },
