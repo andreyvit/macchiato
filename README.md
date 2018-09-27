@@ -1,6 +1,8 @@
 Macchiato: DOM tests that run everywhere
 ========================================
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/andreyvit/macchiato.svg)](https://greenkeeper.io/)
+
 Macchiato provides an API similar to QUnit, running tests using either QUnit (inside the browser) or Express+jsdom (in Node.js).
 
 Why would you want to run tests both on jsdom and on a real web browser?
